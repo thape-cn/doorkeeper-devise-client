@@ -37,9 +37,9 @@ communicate correctly with the provider. You need to set up environment
 variables to indicate the oauth2 provider values. In your
 `.env` file, setup these variables
 
-    DOORKEEPER_APP_ID = "375c2e3fd..." # ID for your app registered at the provider
-    DOORKEEPER_APP_SECRET = "6a2fa82ab..." # Secret
-    DOORKEEPER_APP_URL = "http://the-provider.com" # URL to the provider
+    DOORKEEPER_APP_ID = "6b36653e4aa01..." # ID for your app registered at the provider
+    DOORKEEPER_APP_SECRET = "c739ebd9095c..." # Secret
+    DOORKEEPER_APP_URL = "https://oauth2id.test" # URL to the provider
 
 If you want to test it out you can use our sample provider using
 [doorkeeper](http://github.com/applicake/doorkeeper) gem. It's available
