@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "2.6.3"
+ruby ">= 2.6.5"
 
 gem "listen"
 gem "puma", "~> 6.4"
@@ -18,6 +18,7 @@ gem "rollbar"
 group :development do
   gem "dotenv-rails"
   gem "rubocop-rails_config"
+  gem "rubocop"
 end
 
 group :development, :test do
