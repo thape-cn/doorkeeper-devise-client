@@ -18,7 +18,10 @@ module OmniAuth
       end
 
       def raw_info
-        @raw_info ||= access_token.get("/api/v1/me.json").parsed
+        Rails.logger.debug 'raw_info'
+        res = access_token.get("/me.json")
+        Rails.logger.debug res
+        @raw_info ||= res.parsed
       end
     end
   end
