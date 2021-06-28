@@ -12,7 +12,7 @@ gem "uglifier", ">= 1.3.0"
 
 gem "devise", "~> 4.8"
 gem "omniauth-oauth2", "~> 1.7"
-gem "omniauth", '~> 1.9.1'
+gem "omniauth", '~> 2.0.4'
 gem "rollbar"
 
 group :development do
