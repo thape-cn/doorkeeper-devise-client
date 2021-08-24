@@ -2,13 +2,13 @@ source "https://rubygems.org"
 
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby ">= 2.6.5"
+ruby ">= 2.6"
 
 gem "listen"
 gem "puma", "~> 6.1"
 gem "rails", "~> 6.1"
 gem "sass-rails", "~> 6.0"
-gem "uglifier", ">= 1.3.0"
+gem 'terser'
 
 gem "devise", "~> 4.9"
 gem "omniauth-oauth2", "~> 1.8.0"
