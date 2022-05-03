@@ -12,7 +12,7 @@ gem 'terser'
 
 gem "devise", "~> 4.8"
 gem "omniauth-oauth2", "~> 1.7"
-gem "omniauth", '~> 1.9.1'
+gem "omniauth", '~> 2.1.0'
 gem "rollbar"
 
 group :development do
